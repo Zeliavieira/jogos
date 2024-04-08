@@ -1,0 +1,662 @@
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+h1{
+  color: purple;
+  padding-bottom: 50px;
+padding-top: 0;
+font-size: 50px;
+}
+.classedoh2{
+  color: orangered;
+
+}
+#visao-missao-valores{
+  color: orangered;
+
+}
+
+#historia h2, h3 {
+  color: orangered;
+}
+.container text-center p{
+  padding: 0px;
+}
+
+.text-center{
+color: #ff0000;
+}
+.text-center-p{
+color: purple;
+font-size: 25px;
+padding-top: 50px;
+}
+header{
+  background-image: url('imagens/img.jpg');
+background-size: cover;
+background-position: left;
+background-repeat: no-repeat;
+padding:100px 0; 
+transition: filter 0.5s ease;
+
+}
+header:hover{
+  filter: grayscale(100%);
+
+}
+header p{
+  color: green;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.navbar {
+  background-color: #343a40 !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+  color: blueviolet;
+}
+
+.containerr{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 400px;
+}
+
+.node {
+  position: relative;
+  width: 200px;
+  height: 50px;
+  background-color: #3498db;
+  color: #fff;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  right: -20px; Alterado para ficar no lado direito
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid #3498db; Alterado para apontar para a esquerda
+  transform: translateY(-50%);
+}
+
+.arrow.right {
+  right: auto;
+  left: -20px; Ajustado para ficar do lado direito
+  border-left: none; Removido para que a seta aponte para a direita
+  border-right: 10px solid #3498db; Adicionado para que a seta aponte para a direita
+}
+
+.description {
+  width: 200px;
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.footer {
+  background-color: #343a40;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+footer {
+  background-color: #343a40; 
+  color: white; 
+  padding: 20px 0; 
+  text-align: center; 
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+table, th, td {
+  border: 1px solid black;
+}
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+th {
+  background-color: #f2f2f2;
+}
+
+
+.containerrs h2{
+text-align: center;
+}
+.containerr{
+display: flex;
+justify-content: space-around;
+align-items: center;
+height: 100vh;
+background-color: #f0f0f0;
+}
+
+.column {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+height: 400px;
+}
+
+.node {
+position: relative;
+width: 200px;
+height: 50px;
+background-color: #3498db;
+color: #fff;
+text-align: center;
+line-height: 50px;
+border-radius: 5px;
+margin-bottom: 20px;
+cursor: pointer;
+}
+
+.arrow {
+position: absolute;
+top: 50%;
+right: -20px; Alterado para ficar no lado direito
+width: 0;
+height: 0;
+border-top: 10px solid transparent;
+border-bottom: 10px solid transparent;
+border-left: 10px solid #3498db; Alterado para apontar para a esquerda
+transform: translateY(-50%);
+}
+
+.arrow.right {
+right: auto;
+left: -20px; Ajustado para ficar do lado direito
+border-left: none; Removido para que a seta aponte para a direita
+border-right: 10px solid #3498db; Adicionado para que a seta aponte para a direita
+}
+#Balançopatrimonial-Final h2{
+  color: orangered;
+}
+#visao-missao-valores p{
+color: #0D0D0D;}
+#dados h2{
+  color: orangered;
+
+}
+#servicos h2{
+  color: orangered;
+
+}
+#fornecedores h2{
+color: orangered;
+} 
+.description {
+width: 200px;
+background-color: #fff;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+.imagem{
+  background-image: url(imagens/psicologia-infantil.jpg);
+  background-size: cover;
+  background-position: right center;
+  background-repeat: no-repeat;
+  height: 100vh;
+
+}
+#novoshorizontes p{
+  font-size: 30px;
+ color: greenyellow;
+  padding-top: 50px;
+}
+#novoshorizontes h2{
+  color: orangered;
+  font-size: 32px;
+}
+.imagem a{
+  display: inline-block;
+  margin-top: 1em;
+  padding: 1em 2em;
+  background-color:color-mix(in srgb, red, #ffffff 15%);
+  border-radius: 8px;
+  text-decoration: none;
+  color: black;
+}
+.imagem a:hover{
+  background-color: #0D0D0D;
+  color: rgba(252, 255, 68, 0.918);
+}
+#button{
+text-align: center;
+padding-top: 270px;
+cursor: pointer;
+  font-size: 1em;
+  
+}
+
+
+
+.containero {
+  padding: 20px;
+}
+.titulo {
+  font-size: 24px;
+  font-weight: bold;
+}
+h1 {
+  margin-top: 0;
+  font-size: 30px;
+}
+
+.containero h2 {
+  margin-top: 0;
+  display: inline-block;
+}
+h3 {
+  margin-right: 200px;
+  margin-top: 0;
+  float: right;
+}
+.contas {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-top: 20px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+th {
+  background-color: #f2f2f2;
+}
+.containere h2 {
+  margin-left: 200px;
+}
+strong {
+/*   margin-left: 200px;
+ */}
+#Contasareceber h1{
+text-align: center;
+color: orangered;
+}
+#Contasapagar h1{
+  text-align: center;
+  color: orangered;
+
+}
+#Contasareceber h4{
+  color: #0D0D0D;
+}
+#Contasapagar h3{
+  color: #0D0D0D;
+}
+#Contasareceber h3{
+  color: #0D0D0D;
+
+}
+
+
+.containeros h2{
+  text-align: center;
+  color: orangered;
+}
+
+
+
+
+
+
+#organograma {
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden; /* Para garantir que a imagem não ultrapasse a altura da seção */
+}
+#organograma h2{
+  text-align: center;
+  color: orangered;
+}
+/* Estilo da imagem do organograma */
+#organograma img {
+  width: 100%;
+  height: auto;
+  display: block; /* Garante que a imagem não tenha margens extras */
+}
+
+/* Definir o tamanho das caixas dos membros do organograma */
+.member-box {
+  width: calc(70% / 21); /* Distribui igualmente o espaço para os 7 membros */
+  max-width: 70px; /* Tamanho máximo das caixas */
+  border: 1px solid #ccc;
+  padding: 1px; /* Espaçamento interno */
+  margin-bottom: 2px;
+  cursor: pointer;
+  text-align: center; /* Centraliza o texto dentro da caixa */
+}
+
+/* Estilo do texto dentro das caixas */
+.member-box h4 {
+  margin-top: 25px; /* Espaçamento superior */
+  font-size: 6px; /* Tamanho da fonte */
+  padding-top: 10px;
+}
+
+/* Alinhar as caixas no rodapé da imagem do organograma */
+.members-footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around; /* Distribui as caixas igualmente */
+}
+
+/* Estilo para as descrições */
+.description-container {
+  display: none;
+  position: absolute;
+  top: 70%; /* Alinha a parte superior da descrição ao centro vertical */
+  left: 50%; /* Alinha a parte esquerda da descrição ao centro horizontal */
+  transform: translate(-50%, -50%); /* Centraliza a descrição */
+  width: 90%;
+  max-width: 600px; /* Definir a largura máxima da descrição */
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 10px;
+}
+
+
+
+
+#description1 img{
+width: 150px;
+height: 150px;
+float: inline-end;
+
+}
+#description3 img{
+  width: 150px;
+  height: 150px;
+  float: inline-end;
+  }
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+.fluxograma-section img{
+width: 100%;
+}
+
+.fluxograma-section {
+  position: relative;
+  width: 100%;
+  overflow: hidden; /* Garante que os GIFs não ultrapassem os limites da seção */
+}
+
+.imagem-container {
+  position: relative;
+}
+
+.gifs {
+  position: absolute;
+  bottom: 0;
+  left: 66%; /* Alinha os GIFs no centro horizontal */
+  transform: translateX(-50%); /* Centraliza os GIFs */
+  display: flex;
+  padding-bottom: 80px;
+  justify-content: center;
+}
+
+.gifs img {
+  margin: 0 5px; /* Espaçamento entre os GIFs */
+  width: 100px;
+}
+.fluxograma-section h2{
+text-align: center;
+color: orangered;
+}
+
+/* controle de caixa */
+
+.containero {
+  padding: 20px;
+}
+#ControledeCaixa h2{
+  text-align: center;
+  color: orangered;
+}
+.titulo {
+  font-size: 24px;
+  font-weight: bold;
+}
+h1 {
+  margin-top: 0;
+  font-size: 30px;
+}
+
+.containero h2 {
+  margin-top: 0;
+  display: inline-block;
+}
+h5 {
+  margin-right: 70px;
+  margin-top: 0;
+  float: right;
+  font-size: 14px;
+}
+.contas {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-top: 20px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+th {
+  background-color: #f2f2f2;
+}
+
+
+#Balancopatrimonial-Inicial h2{
+  text-align: center;
+  color: orangered;
+}
+
+#Contasareceber h6{
+text-align: center;
+color: orangered;
+font-size: 32px;
+}
+
+.important {
+  color: #ff0000; /* Cor vermelha */
+  font-weight: bold;
+  
+}
+.information h2{
+text-align: center;
+color: orangered;
+}
+.information h6{
+  color: rgb(11, 228, 11);
+font-size: 20px;
+}
+
+
+
+/* Estilo para a seção "Sobre Nós" */
+.about-us {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilo para o título "Sobre Nós" */
+.about-us h2 {
+  color: orangered;
+}
+
+/* Estilo para as informações da empresa */
+.company-info {
+  margin-bottom: 20px;
+}
+
+/* Estilo para o título "Porte da Empresa" */
+.company-info h6 {
+  color: #007bff; /* Azul */
+}
+
+/* Estilo para o parágrafo sobre o porte da empresa */
+.company-info p {
+  color: #666;
+}
+
+/* Estilo para o título "Natureza Jurídica" */
+.legal-nature h6 {
+  color: #007bff; /* Azul */
+}
+
+/* Estilo para o parágrafo sobre a natureza jurídica */
+.legal-nature p {
+  color: #666;
+}
+
+/* styles.css */
+
+/* styles.css */
+
+/* Estilo para o cabeçalho */
+header {
+  position: relative; /* Necessário para os confetes */
+  background-color: #007bff; /* Azul */
+  color: #fff; /* Branco */
+  padding: 50px 0;
+}
+
+/* Estilo para a animação de confetes */
+@keyframes confetti-fall {
+  0% { transform: translateY(-50vh) rotate(0deg); opacity: 0; }
+  100% { transform: translateY(100vh) rotate(360deg); opacity: 1; }
+}
+
+/* Estilo para os elementos de confetes */
+.confetti {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color:red; /* Rosa */
+  border-radius: 50%;
+  animation: confetti-fall 3s ease infinite;
+}
+
+/* Posicionamento aleatório dos confetes */
+.confetti:nth-child(1) { top: -10%; left: 10%; animation-delay: 0.5s; }
+.confetti:nth-child(2) { top: -10%; left: 20%; animation-delay: 1s; }
+.confetti:nth-child(3) { top: -10%; left: 30%; animation-delay: 1.5s; }
+.confetti:nth-child(4) { top: -10%; left: 40%; animation-delay: 0.7s; }
+.confetti:nth-child(5) { top: -10%; left: 50%; animation-delay: 1.2s; }
+.confetti:nth-child(6) { top: -10%; left: 60%; animation-delay: 0.9s; }
+.confetti:nth-child(7) { top: -10%; left: 70%; animation-delay: 0.6s; }
+.confetti:nth-child(8) { top: -10%; left: 80%; animation-delay: 1.3s; }
+.confetti:nth-child(9) { top: -10%; left: 90%; animation-delay: 1.1s; }
+
+/* Container para os confetes */
+.confetti-container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.logos_footer{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+
+}
+.logos_footer img{
+
+gap: 1em;    
+width: 30px;
+height: 30px;
+border-radius: 100px;
+}
+.tamanho{
+  width: 2.5em;
+}
+
+.texto_footer{
+  font-size: 0.6em;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  margin:0;
+  padding-top: .8rem;
+  color: #0D0D0D;
+}
+
+@media screen and (min-width: 48em){
+
+  .logos_footer{
+      flex-direction: row;
+      justify-content: center;
+      gap:1.5em;
+  }
+}
+
+
+.consideracoes-finais {
+  position: relative;
+  background-color: #f9f9f9;
+  padding: 50px 0;
+  text-align: center;
+}
+.consideracoes-finais h2 {
+color: #ff0000;
+}
+
+.situacoes-jogo h2{
+text-align: center;
+color: #ff0000;
+}
+
